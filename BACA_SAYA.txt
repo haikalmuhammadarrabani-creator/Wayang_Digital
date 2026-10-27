@@ -1,0 +1,8 @@
+Wayang Kulit Digital - satu file
+
+1. pip install -r requirements.txt
+2. python wayang_hybrid.py
+3. Buka http://localhost:8123 di Chrome / Edge
+
+Tanpa kamera (uji): python wayang_hybrid.py --demo
+Opsi: --camera N  --fps N  --port N  --ws-port N  --model PATH  --no-video
