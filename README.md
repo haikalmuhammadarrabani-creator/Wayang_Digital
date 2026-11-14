@@ -26,7 +26,7 @@ Deteksi tangan dijalankan secara native di komputer lokal, sedangkan peramban ha
 
 ## Demo
 - Video demo: https://drive.google.com/file/d/1kj3skG_ZH2_AikVwwfmfY86mouq9qJ-I/view?usp=sharing  
-- Coba langsung: repositori github
+- Coba langsung: https://github.com/haikalmuhammadarrabani-creator/Wayang_Digital/tree/main
 - Dipamerkan di: DIPA MediaArt Festival 2026, Gazebo Raden Wijaya, Universitas Brawijaya, Malang (27 Oktober 2026)
 
 ## Tangkapan Layar
