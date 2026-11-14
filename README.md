@@ -32,7 +32,8 @@ Deteksi tangan dijalankan secara native di komputer lokal, sedangkan peramban ha
 ## Tangkapan Layar
 | Tampilan awal | Wayang berwarna | Mode bayangan |
 |---|---|---|
-| <img width="778" height="353" alt="image" src="https://github.com/user-attachments/assets/4a0e0964-0f9e-4d77-bdef-1df197aa1653" /> | | <img width="626" height="835" alt="image" src="https://github.com/user-attachments/assets/f4e36535-00be-47b1-b5c8-d29390fa644f" /> |
+| <img width="778" height="353" alt="image" src="https://github.com/user-attachments/assets/4a0e0964-0f9e-4d77-bdef-1df197aa1653" /> | | <img width="626" height="835" alt="image" src="https://github.com/user-attachments/assets/f4e36535-00be-47b1-b5c8-d29390fa644f" /> | | <img width="764" height="464" alt="image" src="https://github.com/user-attachments/assets/b99f65c2-4292-4162-b92b-17a431767f4b" /> |
+
 
 
 
