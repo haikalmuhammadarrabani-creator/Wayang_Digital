@@ -2,7 +2,8 @@
 
 > Wayang kulit digital yang digerakkan langsung oleh gerakan tangan pengunjung lewat kamera, tanpa sensor atau perangkat tambahan.
 
-![Tampilan utama](screenshots/tampilan-utama.png)
+![Tampilan utama](<img width="1897" height="992" alt="wayang2" src="https://github.com/user-attachments/assets/43887232-feeb-4c0c-89b7-ef5e4ff5f564" />
+)
 
 ## Latar Belakang
 Wayang kulit adalah warisan budaya yang sering terasa jauh bagi generasi muda karena umumnya hanya ditonton, bukan dicoba. Kami ingin menghadirkan pengalaman yang lebih dekat: pengunjung bisa "menjadi dalang" hanya dengan menggerakkan tangan di depan kamera.
@@ -33,7 +34,10 @@ Deteksi tangan dijalankan secara native di komputer lokal, sedangkan peramban ha
 ## Tangkapan Layar
 | Tampilan awal | Wayang berwarna | Mode bayangan |
 |---|---|---|
-| ![Tampilan awal](screenshots/1-tampilan-awal.png) | ![Wayang berwarna](screenshots/2-wayang-berwarna.jpeg) | ![Mode bayangan](screenshots/3-mode-bayangan.jpeg) |
+| ![Tampilan awal](<img width="774" height="350" alt="image" src="https://github.com/user-attachments/assets/07f27514-ab9a-4483-9723-5bc2e73dcf4d" />
+) | ![Wayang berwarna](<img width="1200" height="1600" alt="gambar wayang gital vokasi ub" src="https://github.com/user-attachments/assets/73bc3870-e31b-4fe0-b5b3-8ecb9cbeca99" />
+) | ![Mode bayangan](<img width="4080" height="3072" alt="eses2" src="https://github.com/user-attachments/assets/f267adbc-1585-4d5d-8394-f6da914d35be" />
+) |
 
 ## Teknologi yang Digunakan
 - HTML, CSS, JavaScript (tampilan di peramban)
