@@ -16,7 +16,6 @@ Wayang Vokasi UB membaca gerakan tangan melalui webcam dengan MediaPipe Hand Lan
 - Dua wayang yang identik dan saling berhadapan, masing-masing dikendalikan satu tangan
 - Mode tampilan berwarna dan mode bayangan, dengan kecerahan yang menyesuaikan latar
 - Tampil di peramban lewat localhost, mendukung layar penuh untuk pameran
-- [Fitur lain sesuai proposal]
 
 ## Cara Kerja
 1. Webcam menangkap tangan pengguna.
@@ -28,7 +27,7 @@ Deteksi tangan dijalankan secara native di komputer lokal, sedangkan peramban ha
 
 ## Demo
 - Video demo: https://drive.google.com/file/d/1kj3skG_ZH2_AikVwwfmfY86mouq9qJ-I/view?usp=sharing 
-- Coba langsung: [tautan, jika ada. Produk ini membutuhkan webcam dan program lokal]
+- Coba langsung: https://github.com/haikalmuhammadarrabani-creator/Wayang_Digital/blob/main/wayang_hybrid.py
 - Dipamerkan di: DIPA MediaArt Festival 2026, Gazebo Raden Wijaya, Universitas Brawijaya, Malang (27 Oktober 2026)
 
 ## Tangkapan Layar
@@ -46,7 +45,7 @@ Deteksi tangan dijalankan secara native di komputer lokal, sedangkan peramban ha
 - WebSocket (pengiriman data gerak ke peramban)
 
 ## Cara Menjalankan
-**Prasyarat:** komputer dengan webcam, Python [versi], peramban terbaru (Edge/Chrome).
+**Prasyarat:** komputer dengan webcam, Python 3.14.7, peramban terbaru (Edge/Chrome).
 
 ```bash
 # 1. Unduh repositori
@@ -56,13 +55,13 @@ git clone https://github.com/haikalmuhammadarrabani-creator/Wayang_Digital
 cd Wayang_Digital
 
 # 3. Pasang pustaka yang dibutuhkan
-pip install [daftar pustaka, misalnya mediapipe opencv-python websockets]
+pip install mediapipe opencv-python
 
 # 4. Jalankan program deteksi
 python wayang_hybrid.py
 
 # 5. Buka di peramban
-# http://localhost:[port]
+# http://localhost:8123
 ```
 
 > Buka halaman lewat `localhost`, bukan dengan membuka `index.html` langsung (`file://`).
@@ -79,29 +78,26 @@ python wayang_hybrid.py
 ## Pengujian
 - Pada versi awal (seluruh proses di peramban), deteksi tangan dengan dua tangan hanya sekitar 7-8 FPS sehingga gerakan wayang patah-patah.
 - Setelah deteksi dipindah ke program lokal (native), deteksi naik menjadi sekitar 17-20 FPS dengan waktu inferensi sekitar 17-20 ms.
-- Uji coba pengunjung saat pameran: [jumlah pengunjung dan ringkasan tanggapan]. Salah satu masukan yang diterima adalah menambah lakon wayang agar lebih beragam.
+- Uji coba pengunjung saat pameran: 14 orang. Salah satu masukan yang diterima adalah menambah lakon wayang agar lebih beragam.
 
 ## Kendala dan Perbaikan
 - Gerakan wayang patah-patah di peramban → deteksi tangan dipindah ke program native lokal, peramban hanya menampilkan.
-- Wayang masih terasa sedikit tertinggal dari tangan → [langkah perbaikan yang sedang atau akan dilakukan]
 
 ## Catatan Aset
-Gambar wayang yang digunakan pada prototipe ini bersumber dari hasil pencarian daring dan dipakai untuk keperluan prototipe. Pemilik dan lisensinya sedang ditelusuri; aset akan dimintakan izin atau diganti dengan aset berizin sebelum dipublikasikan lebih luas. [Tambahkan atribusi untuk unsur suara jika ada, sesuai proposal.]
+Gambar wayang yang digunakan pada prototipe ini bersumber dari hasil pencarian daring dan dipakai untuk keperluan prototipe. Pemilik dan lisensinya sedang ditelusuri; aset akan dimintakan izin atau diganti dengan aset berizin sebelum dipublikasikan lebih luas.
 
 ## Status dan Rencana Pengembangan
 - Status saat ini: purwarupa yang sudah diperagakan di pameran
 - [ ] Menambah lakon dan tokoh wayang
-- [ ] Mengurangi jeda antara gerakan tangan dan gerakan wayang
 - [ ] Mengganti aset gambar dengan aset berizin
-- [ ] [Rencana distribusi, misalnya hosting publik atau rilis di GitHub]
+- [ ] Pergerakan wayang yang lebih fleksibel
 
 ## Tim
 - Dosen pembimbing: Rachmad Andri Atmoko, S.ST., M.T.
-- [Nama] - [peran]
-- [Nama] - [peran]
-- [Nama] - [peran]
+- Haikal Muhammad Ar-rabani - Pengembang Fitur & Sistem Interaktif Wayang
+- Dylan Leonardo Pratama - Pengembang Website 
 
 Program Studi Teknologi Rekayasa Perangkat Lunak, Fakultas Vokasi, Universitas Brawijaya.
 
 ## Kontak
-[Email atau tautan media sosial]
+haikalmuhammadarrabani@gmail.com
