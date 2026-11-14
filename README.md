@@ -50,10 +50,10 @@ Deteksi tangan dijalankan secara native di komputer lokal, sedangkan peramban ha
 
 ```bash
 # 1. Unduh repositori
-git clone [tautan repositori]
+git clone https://github.com/haikalmuhammadarrabani-creator/Wayang_Digital
 
 # 2. Masuk ke folder
-cd [nama-folder]
+cd Wayang_Digital
 
 # 3. Pasang pustaka yang dibutuhkan
 pip install [daftar pustaka, misalnya mediapipe opencv-python websockets]
