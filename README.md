@@ -27,7 +27,7 @@ Wayang Vokasi UB membaca gerakan tangan melalui webcam dengan MediaPipe Hand Lan
 Deteksi tangan dijalankan secara native di komputer lokal, sedangkan peramban hanya bertugas menampilkan. Pembagian ini dipilih karena deteksi di dalam peramban terlalu lambat.
 
 ## Demo
-- Video demo: [tautan YouTube/Google Drive]
+- Video demo: https://drive.google.com/file/d/1kj3skG_ZH2_AikVwwfmfY86mouq9qJ-I/view?usp=sharing 
 - Coba langsung: [tautan, jika ada. Produk ini membutuhkan webcam dan program lokal]
 - Dipamerkan di: DIPA MediaArt Festival 2026, Gazebo Raden Wijaya, Universitas Brawijaya, Malang (27 Oktober 2026)
 
